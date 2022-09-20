@@ -1,0 +1,24 @@
+
+.number,
+.one,
+.three,
+.five {
+  background-color: rgb(228, 137, 167);
+  font-family: "Verdana", "DejaVu", sans-serif;
+}
+
+#second {
+  color: blue;
+  font-size: 36px;
+  font-family: "Verdana", "DejaVu", sans-serif;
+}
+
+.three {
+  font-size: 24px;
+}
+
+#fourth {
+  background-color: lightgreen;
+  font-weight: 700; /*or bold*/
+
+}
