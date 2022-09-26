@@ -15,18 +15,17 @@ img {
   margin-bottom: 32px;
 }
 
-
-.plants{
+.container{
   display: flex;
   justify-content: center;
-  gap: 52px;
 }
 
-
-.text{
+.container-plants {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-flow: row wrap;
+  flex: 0 1 200px;
 }
 
 /* do not edit this footer */
