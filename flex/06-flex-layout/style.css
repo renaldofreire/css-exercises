@@ -25,3 +25,29 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  gap: 15px;
+  margin: 5px;
+}
+
+/* TODO: footer align to bottom */
+
+/* .container-footer{ */
+/*   display: flex; */
+/*   flex-flow: column ; */
+/* } */
+
