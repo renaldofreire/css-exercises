@@ -8,7 +8,6 @@ body {
 
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-between;
 }
 
 img {
@@ -20,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  padding: 8px;
 }
 
 input {
@@ -31,22 +32,41 @@ input {
 }
 
 ul {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 12px;
 }
 
-.content{
+.content {
   flex: 1; /*expandir ao resto do espaço */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-
 }
 
 .header,
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
+
+.footer {
+  background-color: #eeecdd;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  font-size: 13px;
+  color: #c98f35;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 13px;
+  color: #2832c2;
+}
+
